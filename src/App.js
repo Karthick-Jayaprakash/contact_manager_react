@@ -57,7 +57,6 @@ function App() {
   }
   
   const handleEdit = (id) =>{
-    const contact = contacts.find(contact => (contact.id).toString() == id)
     const updatedContact = { id : id,
                             name:editName,
                             email:editEmail,

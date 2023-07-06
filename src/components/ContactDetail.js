@@ -1,4 +1,4 @@
-import {Link, useParams} from "react-router-dom"
+import { useParams} from "react-router-dom"
 import img from './img.png'
 
 function ContactDetail({contacts}) {
@@ -16,7 +16,7 @@ function ContactDetail({contacts}) {
   return (
   
     <div className="ContactDetail">
-        <img src={img}></img>
+        <img src={img} alt="image"></img>
         <h2>{name}</h2>
         <p>{email}</p>
         <p>{description}</p>

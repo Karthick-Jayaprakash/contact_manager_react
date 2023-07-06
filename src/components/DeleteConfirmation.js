@@ -1,4 +1,4 @@
-import {Link,useParams} from "react-router-dom"
+import {useParams} from "react-router-dom"
 import React from "react"
 function DeleteConfirmation({contacts, handleDelete}) {
   const {id} = useParams()

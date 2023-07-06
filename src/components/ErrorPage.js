@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom"
-import react from "react"
 
 function ErrorPage() {
   return (
