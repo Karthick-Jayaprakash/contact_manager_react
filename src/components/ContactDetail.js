@@ -16,7 +16,7 @@ function ContactDetail({contacts}) {
   return (
   
     <div className="ContactDetail">
-        <img src={img} alt="image"></img>
+        <img src={img} alt="pic"></img>
         <h2>{name}</h2>
         <p>{email}</p>
         <p>{description}</p>
