@@ -44,6 +44,7 @@ function App() {
     setContacts([...contacts,newContact])
     setName('')
     setEmail('')
+    setDescription('')
     navigate('/')
   }
 
