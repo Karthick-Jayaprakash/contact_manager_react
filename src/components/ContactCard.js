@@ -2,6 +2,7 @@ import {Link} from "react-router-dom"
 
 function ContactCard  ({contact,handleDelete}) { 
   return (
+    
     <div className="ContactCard">
       <div className="item">
         <div className="content">
