@@ -7,7 +7,6 @@ import EditContact from './components/EditContact'
 import ContactDetail from './components/ContactDetail'
 import DeleteConfirmation from './components/DeleteConfirmation'
 import ErrorPage from './components/ErrorPage'
-import Practice from './components/Practice'
 import {useState,useEffect} from "react"
 import {Routes, Route, useNavigate} from "react-router-dom"
 
